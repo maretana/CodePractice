@@ -1,7 +1,7 @@
 // Source: https://www.codewars.com/kata/514b92a657cdc65150000006/train/javascript
 
 function solution (number) {
-  return sumOfMultiples(3, 5, number)
+  return sumOfTwoMultiples(3, 5, number)
 }
 
 /**
@@ -12,14 +12,16 @@ function solution (number) {
  * @param {Number} limit The limit of this sum
  * @returns {Number} The sum of all the multiples of a or b below the limit passed in.
  */
-function sumOfMultiples (a, b, limit) {
-  const multiplesCountForA = Math.floor((limit - 1) / a)
-  const multiplesCountForB = Math.floor((limit - 1) / b)
-  const multiplesCountForAB = Math.floor((limit - 1) / (a * b))
-  const sumA = a * 0.5 * multiplesCountForA * (multiplesCountForA + 1)
-  const sumB = b * 0.5 * multiplesCountForB * (multiplesCountForB + 1)
-  const sumAB = a * b * 0.5 * multiplesCountForAB * (multiplesCountForAB + 1)
+function sumOfTwoMultiples (a, b, limit) {
+  const sumA = sumOfMultiple(a, limit)
+  const sumB = sumOfMultiple(b, limit)
+  const sumAB = sumOfMultiple(a * b, limit)
   return sumA + sumB - sumAB
+}
+
+function sumOfMultiple (multiple, limit) {
+  const multipleCount = Math.floor((limit - 1) / multiple)
+  return multiple * 0.5 * multipleCount * (multipleCount + 1)
 }
 
 module.exports = solution
