@@ -1,0 +1,27 @@
+{
+  "name": "javascript-challenges",
+  "version": "1.0.0",
+  "description": "Code challenges and tests in JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "watch": "npx jest --watch --noStackTrace"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maretana/CodePractice.git"
+  },
+  "author": "Mario Retana <maretanar@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maretana/CodePractice/issues"
+  },
+  "homepage": "https://github.com/maretana/CodePractice#readme",
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "standard": "^14.3.1"
+  },
+  "standard": {
+    "envs": ["jest"]
+  }
+}
