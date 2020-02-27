@@ -6,16 +6,23 @@
  * @returns {Number} the size of the loop in nodes count.
  */
 function loop_size (node) { // eslint-disable-line camelcase
-  const nodesContainer = []
-  let loopNode = node
-  while (loopNode && !nodesContainer.includes(loopNode)) {
-    nodesContainer.push(loopNode)
-    loopNode = loopNode.getNext()
+  let hare = node
+  let tortoise = node
+  let loopCount = 0
+
+  do {
+    tortoise = tortoise && tortoise.getNext()
+    hare = hare && hare.getNext() && hare.getNext().getNext()
+  } while (hare && hare !== tortoise)
+
+  if (hare) {
+    hare = hare.getNext()
+    for (loopCount = 1; hare !== tortoise; loopCount++) {
+      hare = hare.getNext()
+    }
   }
 
-  return loopNode
-    ? nodesContainer.length - nodesContainer.indexOf(loopNode)
-    : 0
+  return loopCount
 }
 
 module.exports = loop_size // eslint-disable-line camelcase
