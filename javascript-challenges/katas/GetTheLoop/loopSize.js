@@ -2,30 +2,29 @@
 
 /**
  * Determines the length of the loop in a given linked list that will always have a tail and a loop.
- * Implementation of Floyd's Tortoise and Hare
+ * Implementation of Brent’s Cycle Detection Algorithm
+ * Hint: look in the commits for other algorithms I implemented before this one.
  * @param {Object} node
  * @returns {Number} the size of the loop in nodes count.
  */
 function loop_size (node) { // eslint-disable-line camelcase
   if (!node) return 0
 
-  let hare = node
+  let power = 1
+  let loopCount = 1
   let tortoise = node
-  let loopCount = 0
-
-  do {
-    tortoise = tortoise.getNext()
-    hare = hare.getNext() && hare.getNext().getNext()
-  } while (hare && hare !== tortoise)
-
-  if (hare) {
-    hare = hare.getNext()
-    for (loopCount = 1; hare !== tortoise; loopCount++) {
-      hare = hare.getNext()
+  let hare = node.getNext()
+  while (hare && tortoise !== hare) {
+    if (power === loopCount) {
+      tortoise = hare
+      power *= 2
+      loopCount = 0
     }
+    hare = hare.getNext()
+    loopCount++
   }
 
-  return loopCount
+  return hare ? loopCount : 0
 }
 
 module.exports = loop_size // eslint-disable-line camelcase
