@@ -6,8 +6,8 @@ Node.prototype = {
   getNext: function getNext () {
     return this.next
   },
-  setNext: function setNext (newNext) {
-    this.next = newNext
+  setNext: function setNext (nextNode) {
+    this.next = nextNode
   }
 }
 
