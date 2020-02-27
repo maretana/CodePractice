@@ -2,6 +2,7 @@
 
 /**
  * Determines the length of the loop in a given linked list that will always have a tail and a loop.
+ * Implementation of Floyd's Tortoise and Hare
  * @param {Object} node
  * @returns {Number} the size of the loop in nodes count.
  */
