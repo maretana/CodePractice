@@ -8,7 +8,7 @@ java-challenges/.project
 java-challenges/.settings/
 node_modules/
 
-# Visual Studio files
+# ========== VISUAL STUDIO IGNORE FILES ==========
 
 # User-specific files
 *.rsuser
@@ -42,3 +42,13 @@ bld/
 [Oo]bj/
 [Ll]og/
 [Ll]ogs/
+
+# The packages folder can be ignored because of Package Restore
+**/[Pp]ackages/*
+# except build/, which is used as an MSBuild target.
+!**/[Pp]ackages/build/
+
+# Visual Studio 2015/2017 cache/options directory
+.vs/
+
+# ========== VISUAL STUDIO IGNORE FILES ==========
