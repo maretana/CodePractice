@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Rainfall\Rainfall.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rainfall\RainfallTest.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="CaesarCipher\CaesarCipher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CaesarCipher\CaesarCipherTest.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="PrimeDecomp\PrimeDecomp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PrimeDecomp\PrimeDecompTest.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="GetMiddle\GetMiddle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GetMiddle\GetMiddleTest.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="StockList\StockList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StockList\StockListTest.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Fracts\Fracts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LongestPalindrome\LongestPalindrome.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Likes\Likes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Likes\LikesTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DeleteNth\DeleteNth.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CountBits\CountBits.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CountBits\CountBitsTest.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="DeleteNth\DeleteNthTest.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Fracts\FractsTest.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="LongestPalindrome\LongestPalindromeTest.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Rainfall\Rainfall.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CaesarCipher\CaesarCipher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PrimeDecomp\PrimeDecomp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GetMiddle\GetMiddle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StockList\StockList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Fracts\Fracts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LongestPalindrome\LongestPalindrome.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Likes\Likes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DeleteNth\DeleteNth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CountBits\CountBits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{a9ea910f-ca80-412d-bf16-eb7a5aab5dd2}</UniqueIdentifier>
+      <Extensions>
+      </Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{3114e8c0-8939-4ee6-85ba-85767f6c3328}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{fcdf8a67-7023-4fdd-bb77-4e14788e5f6f}</UniqueIdentifier>
+      <Extensions>cpp;c</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
