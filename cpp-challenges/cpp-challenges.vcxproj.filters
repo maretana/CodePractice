@@ -61,6 +61,12 @@
     <ClCompile Include="LongestPalindrome\LongestPalindromeTest.cpp">
       <Filter>Tests</Filter>
     </ClCompile>
+    <ClCompile Include="GreedIsGood\GreedIsGood.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GreedIsGood\GreedIsGoodTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Rainfall\Rainfall.h">
@@ -91,6 +97,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="CountBits\CountBits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GreedIsGood\GreedIsGood.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

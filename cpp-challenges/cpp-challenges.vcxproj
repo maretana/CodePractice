@@ -38,6 +38,7 @@
     <ClInclude Include="DeleteNth\DeleteNth.h" />
     <ClInclude Include="Fracts\Fracts.h" />
     <ClInclude Include="GetMiddle\GetMiddle.h" />
+    <ClInclude Include="GreedIsGood\GreedIsGood.h" />
     <ClInclude Include="Likes\Likes.h" />
     <ClInclude Include="LongestPalindrome\LongestPalindrome.h" />
     <ClInclude Include="PrimeDecomp\PrimeDecomp.h" />
@@ -55,6 +56,8 @@
     <ClCompile Include="Fracts\FractsTest.cpp" />
     <ClCompile Include="GetMiddle\GetMiddle.cpp" />
     <ClCompile Include="GetMiddle\GetMiddleTest.cpp" />
+    <ClCompile Include="GreedIsGood\GreedIsGood.cpp" />
+    <ClCompile Include="GreedIsGood\GreedIsGoodTest.cpp" />
     <ClCompile Include="Likes\Likes.cpp" />
     <ClCompile Include="Likes\LikesTest.cpp" />
     <ClCompile Include="LongestPalindrome\LongestPalindrome.cpp" />
