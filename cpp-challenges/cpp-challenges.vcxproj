@@ -42,6 +42,7 @@
     <ClInclude Include="Likes\Likes.h" />
     <ClInclude Include="LongestPalindrome\LongestPalindrome.h" />
     <ClInclude Include="PrimeDecomp\PrimeDecomp.h" />
+    <ClInclude Include="Prod2Sum\Prod2Sum.h" />
     <ClInclude Include="Rainfall\Rainfall.h" />
     <ClInclude Include="StockList\StockList.h" />
   </ItemGroup>
@@ -64,6 +65,8 @@
     <ClCompile Include="LongestPalindrome\LongestPalindromeTest.cpp" />
     <ClCompile Include="PrimeDecomp\PrimeDecomp.cpp" />
     <ClCompile Include="PrimeDecomp\PrimeDecompTest.cpp" />
+    <ClCompile Include="Prod2Sum\Prod2Sum.c" />
+    <ClCompile Include="Prod2Sum\Prod2SumTest.cpp" />
     <ClCompile Include="Rainfall\Rainfall.cpp" />
     <ClCompile Include="Rainfall\RainfallTest.cpp" />
     <ClCompile Include="StockList\StockList.cpp" />

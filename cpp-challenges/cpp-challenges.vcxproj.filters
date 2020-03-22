@@ -64,8 +64,14 @@
     <ClCompile Include="GreedIsGood\GreedIsGood.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="GreedIsGood\GreedIsGoodTest.cpp">
+    <ClCompile Include="Prod2Sum\Prod2Sum.c">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GreedIsGood\GreedIsGoodTest.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Prod2Sum\Prod2SumTest.cpp">
+      <Filter>Tests</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -100,6 +106,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="GreedIsGood\GreedIsGood.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prod2Sum\Prod2Sum.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
