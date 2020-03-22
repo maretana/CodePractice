@@ -19,9 +19,11 @@
   "homepage": "https://github.com/maretana/CodePractice#readme",
   "devDependencies": {
     "jest": "^25.1.0",
-    "standard": "^14.3.1"
+    "standard": "^14.3.3"
   },
   "standard": {
-    "envs": ["jest"]
+    "envs": [
+      "jest"
+    ]
   }
 }
