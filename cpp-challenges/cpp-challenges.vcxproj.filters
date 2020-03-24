@@ -73,6 +73,12 @@
     <ClCompile Include="Prod2Sum\Prod2SumTest.cpp">
       <Filter>Tests</Filter>
     </ClCompile>
+    <ClCompile Include="ProperFractions\ProperFractions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProperFractions\ProperFractionsTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Rainfall\Rainfall.h">
@@ -109,6 +115,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Prod2Sum\Prod2Sum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProperFractions\ProperFractions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
