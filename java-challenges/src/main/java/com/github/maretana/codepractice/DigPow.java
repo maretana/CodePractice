@@ -3,7 +3,7 @@ package com.github.maretana.codepractice;
 
 public class DigPow {
 	
-  // I wnated to try a pure mathemathical approach rather than using string conversions.
+  // I wanted to try a pure mathemathical approach rather than using string conversions.
   public static long digPow(int n, int p) {
     int digits = (int) Math.log10((double) n); // log 10 = 1; log 100 = 2; log 1000 = 3; log 500 = 2.6989...;
     long divisor = pow(10, digits);
